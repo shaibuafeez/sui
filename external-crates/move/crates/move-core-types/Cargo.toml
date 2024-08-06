@@ -17,8 +17,8 @@ proptest = { workspace = true, optional = true }
 proptest-derive = { workspace = true, optional = true }
 rand.workspace = true
 ref-cast.workspace = true
-serde.workspace = true
-serde_bytes.workspace = true
+serde = { workspace = true, optional = true } # Make serde optional
+serde_bytes = { workspace = true, optional = true } # Make serde_bytes optional
 primitive-types.workspace = true
 uint.workspace = true
 num.workspace = true
